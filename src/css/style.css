@@ -13,6 +13,14 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -325,6 +333,25 @@ template {
 }
 .header__content {
   background: url('../img/main_bg.jpg') no-repeat center;
+  height: 1490px;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.header__item {
+  text-align: center;
+  width: 30%;
+}
+.header__title {
+  font-size: 30px;
+  color: #f7f4f1;
+  line-height: 1;
+}
+.header__sup {
+  font-size: 14px;
+  color: #f7f4f1;
 }
 .nav {
   display: flex;
@@ -332,6 +359,7 @@ template {
 }
 .nav__menu {
   display: flex;
+  padding-left: 0;
 }
 .nav__item {
   list-style-type: none;
@@ -340,4 +368,24 @@ template {
   padding: 25px 17px;
   color: #fff;
   text-decoration: none;
+}
+.logo {
+  max-width: 371px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.section {
+  background-color: #f6f3f0;
+  color: #000;
+}
+.section__block {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 40px;
+}
+.section__item {
+  width: 40%;
+}
+.section__img {
+  width: 286px;
 }

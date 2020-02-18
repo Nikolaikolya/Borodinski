@@ -9,10 +9,23 @@
 .header__wrap {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 80px;
 }
 .header__item {
   text-align: center;
   width: 30%;
+}
+.header__title {
+  font-size: 30px;
+  color: #f7f4f1;
+  line-height: 1;
+}
+.header__img {
+  height: 30px;
+}
+.header__sup {
+  font-size: 14px;
+  color: #f7f4f1;
 }
 .nav {
   display: flex;
